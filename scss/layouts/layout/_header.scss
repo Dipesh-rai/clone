@@ -1,0 +1,12 @@
+header{
+    nav{
+        ul{
+            li{
+                font-family: $secondary-font;
+                &:hover{
+                    color:rgb(197, 2, 10);
+                }
+            }
+        }
+    }
+}

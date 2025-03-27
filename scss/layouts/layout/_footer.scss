@@ -1,0 +1,22 @@
+footer{
+    margin-top:100px;
+    color:white;
+    span{
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    .copyright{
+        font-size:10px;
+        font-weight:800;
+        line-height: 15px;
+        font-family: $secondary-font;
+        gap:5px;
+        margin-block:10px;
+        a{
+            &:hover{
+                opacity:0.8;
+            }
+        }
+    }
+}
